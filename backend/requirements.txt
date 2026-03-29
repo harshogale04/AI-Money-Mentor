@@ -1,0 +1,36 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# LangChain + LangGraph — these three must be version-locked together
+langchain==0.3.7
+langchain-core==0.3.19
+langchain-community==0.3.7
+langchain-google-genai==2.0.4
+langgraph==0.2.45
+
+# Google Gemini
+google-generativeai==0.8.3
+
+# Supabase
+supabase==2.9.1
+
+# PDF parsing
+pymupdf==1.24.11
+pdfplumber==0.11.4
+
+# Data / finance
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+
+# HTTP
+httpx==0.27.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==9.0.0

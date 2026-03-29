@@ -1,0 +1,80 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+
+venv/
+.env/
+.venv/
+env/
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# VS Code
+
+.vscode/
+
+# Mac
+
+.DS_Store
+
+# Logs
+
+*.log
+
+# Docker
+
+*.pid
+
+# Pytest / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+
+dist/
+build/
+*.egg-info/
+
+# MyPy
+
+.mypy_cache/
+
+# IDE
+
+.idea/
+
+# SQLite (if used)
+
+*.db
+*.sqlite3
+
+# Bytecode
+
+*.pyo
+*.pyd
+
+# Temporary files
+
+*.swp
+*.swo
+
+# Node (if frontend inside repo)
+
+node_modules/
+
+# Secrets
+
+secrets.json
+credentials.json
+
+
